@@ -1,0 +1,122 @@
+
+# WEB DESIGN
+
+## Design Ingredient
+
+### Typography # making text beautiful
+
+Tools -> Google Fonts, Font Quirrel
+
+- serif # classic and treditional # merriweather, aleo, playfair display, cormorant, cardo, lora
+- sans-serif # clean and simple / modern # inter, open sans, roboto, montserrat, work sans, lato
+
+#### Rules
+1. use good and popular types
+2. use limit 2 types
+3. choose right types according the web personalities
+4. use font size beetwen 16px to 32px for normal text
+5. for long text use 20px or bigger
+6. headlines more than 50px and bold 600+
+7. for any text use font weight 400+
+8.use less than 75 characters per line
+9.line height for normal size must be between 1.5 to 2 and forbig text below 1.5
+10. decrease letter spacing if it's unnatural
+11. for short titles you can make them small and bold and increase letter spacing 
+12. don't justify the text
+13.don't center long text block
+
+## project
+1. for add font type from google font, just copy link of current fnt styles and then paste it into the html file then add the name of font-family that you choose to css file like: font-family: 'Inter'
+
+## Color
+
+1. color personality
+  red -> attention, power
+  orange -> happines
+  yellow -> brightness and intelligence
+  green -> nature, grow, health
+  blue -> peace, trustworthiness
+  purple -> wisdom, magic
+  pink -> romance, care
+  brown -> nature, comfort
+  black -> minimalism
+2. color tone  -> open color
+3. main color, grey color( dark form of main color) and lighter and darker version of this colors -> palleton.com, coolor
+4. draw attention for important elements like logo, button, ...
+5. highlights, underlines, color text
+6. use color stratigically same with images
+7. in dark background use the lighter version of background color for text
+8. text shoud not completly black
+9.contrast ratio at least 4:5:1 for normal text, 3:1 for large text
+
+## Images _> unsplash, pexels, drawkit, undraw
+1. storytelling images, patterns, product photos
+2. original images, high quality stock photos
+3. use real people photo
+4. combining photos
+5. darker or brih=ghten image for readble text
+6.put text into netralimage area
+7. make image dimensions 2x as big as their displayed size for high res displays
+8. compress for lower file size and better performance # tools -> squoosh
+9. same hieght in side by side
+
+## Icons -> phosphors icons, heroicons, ionicons, icons8
+- copy svg and paste it into html file and create class for that for set features in css file
+1. use one icon packs
+2. use icon svg format and icon font
+3. we use icons for provide visual assistance to text
+4. use icons in feature blocks
+5. in actions (items, buttom, ..) it's better to we use both icon with text not just icons 
+6. never use some feature just icon and some features by text side by side
+7. use icons as bullet points
+8. to keep icons neutral , use same color as text. to draw more attention, use different colorheroicons 
+9. don't use icon larger than what way were designed for
+
+## Shadows
+
+1. more serius and elegant use less shadows and more funny more shadows
+2. don't use shadows for all elements, for example for seperate top and bottom elements or for stand out of the rest
+3. go light shadows, and don't make too dark
+4. smalls shadows for smaller elements that we want stand out of the rest (to dra attention
+5. medium size shado for large areas that should atand out a bit more 
+6. large shadows for element should really float above the interface like pop-up windows
+7. changing shadows for example when hover with the mouse has large shadows and when we click like that it get close to interface and shadows get smaller and some effects like this
+8. colored shadows (glows)
+
+box-shadow: 20px 20px 20px 10 red; # 1.(horizontal) 2.(vertical) 3.(blur) 4.scale-shadow 5.color\
+text-shadow: 0 5px 3px rgba(0, 0, 0, 0.07); # 1.(horizontal) 2.(vertical) 3.(blur) 4.color (usually use for texts that are on top of the images)
+
+## Border Redius
+1. less redius so more elegant and serious
+
+border-radius: 100px;
+border-bottem-left-radius: 20px;
+
+## White Space
+1. between sections
+2. between deifferent groups of elements
+3. between smaller elements
+4. inside groups of elements
+5. start with a lot whitspace and then remove white space from there
+
+## Visual Hierarchy
+1. position important elements closer to the top of the page
+2. use images mindfully, because thae get alot attention
+3. use different font size color font weight and space to convey importance because these items get attention
+4. emphasize an important components by using background color, shadow, border, ...
+5. emphasize component A over B, you can de-emphasizing B
+
+## User Experience (UX)
+look likes and feels like -> UI
+how it works -> UX
+
+1. doesn't use complicated layouts
+2. make your call action more prominent element
+3. use blue text or underlined text only for links
+4. animations must have apurpose and fast. between 200 to 500 ms
+5. easier to scan
+6. good feedback for all actions: errors, form success, ...
+7. use descriptive, keyword-focused headline 
+8. break upwith subheadings, images, blletpoints, ...
+
+## web design sites -> land-book.com, onepagelove.com, awwwards.com
